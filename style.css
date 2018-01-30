@@ -1,0 +1,271 @@
+.header {
+	height: 500px;
+	background: url('img/pozadina.jpg') no-repeat;
+	background-size: cover;
+}
+.header a {
+	font-size: 24pt;
+	color: #fff;
+	margin-top: 50px;
+	margin-left: 50px;
+	display: block;
+	
+}
+.header p {
+	font-size: 42pt;
+	text-align: center;
+	color: #fff;
+	margin-top: 150px;
+	
+}
+
+.main-menu {
+	width: 100%;
+	background-color:  #4d4d4d;
+}
+.main-menu li {
+	display: inline-block;
+	text-align: center;
+	height: 100px;
+	transition: 3s;
+}
+.main-menu li a {
+	color: #ffffff;
+	font-size: 18pt;
+	padding-left: 40px;
+	padding-right: 40px;
+	line-height: 100px;
+	display: block;
+}
+.main-menu li:hover {
+	background-color: #EB5757;
+}
+.main-menu li:hover a {
+	text-decoration: none;
+	color: #fff;
+}
+
+.gallery img {
+	width: 100%;	
+}
+.gallery div {
+	padding: 0;
+}
+
+.overlay {
+	background-color: #000;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	opacity: 0;
+	transition: 0.7s ease;
+}
+
+.overlay1 {
+	background-color: #000;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	opacity: 0;
+	transition: 1s ease;
+}
+
+.image-container:hover .overlay {
+	opacity: 0.95;
+}
+
+.image-container:hover .overlay1 {
+	opacity: 0.9;
+}
+
+.image-container:hover img {
+	filter: blur(3px);
+}
+
+.overlay p {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	color: #fff;
+	font-size: 18pt;
+}
+
+.overlay1 p {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	color: #fff;
+	font-size: 18pt;
+}
+
+.overlay p a {
+	color: #fff;
+	text-decoration: none;
+}
+
+
+.contact-form {	
+	background-color: #4d4d4d;
+	padding: 100px;
+}
+.contact-form h1 {
+	color: #ffffff;
+	font-size: 24pt;
+	margin-bottom: 40px;
+	text-transform: uppercase;
+}
+
+.form-control {
+	height: 45px;
+	border-radius: 0;
+	border: 1px solid #ffffff;
+}
+.form-control::placeholder {
+	color: #000;
+}
+.btn,
+.btn:hover {
+	padding: 15px 25px;
+	background-color: #000;
+	color: #fff;
+	border-radius: 0;
+}
+.btn-default {
+	border: 0;
+}
+
+.footer {
+	height: 400px;
+	background: url('img/kraj.jpg') no-repeat;
+	background-size: cover;
+}
+.footer img {
+	margin-top: 100px;
+	margin-left: 60px;
+}
+.footer ul {
+	margin-top: 300px;
+	float: right;
+}
+.footer ul li {
+	display: inline-block;
+}
+.footer ul li a {
+	display: block;
+	padding-left: 30px;
+	padding-right: 30px;
+	color: #fff;
+	font-size: 18pt;
+}
+.footer ul li a:hover {
+	text-decoration: none;
+}
+
+.image-slider {
+	padding: 0;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.slideshow {
+	height: 800px;
+	width: 100%;
+	margin-bottom: 50px;
+}
+
+.square-blocks {
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+.square-blocks div{
+	height: 250px;
+}
+.square-blocks .light-gray-bg {
+	background-color: #E0E0E0;
+}
+
+.square-blocks .dark-gray-bg {
+	background-color: #F0F0F0;
+}
+
+
+.square-blocks p {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	font-size: 18pt;
+	text-align: center;
+	text-transform: uppercase;
+
+}
+.section-title {
+	text-align: center;
+	font-size: 35pt;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	background-color: #bfbfbf;
+}
+
+.about-me img{
+	width: 100%;
+}
+.about-me div{
+	padding: 0px;
+}
+.about-me-text {
+	padding-left: 40px !important;
+}
+
+.about-me-text-naslov {
+	font-size: 35pt;
+	text-align: center;
+}
+.about-me-text1 {
+	font-size: 17pt;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+.about-me-text2 {
+	font-size: 17pt;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+
+.square-blocks_about_me {
+	margin-top: 30px;
+	margin-bottom: 15px;
+}
+
+.square-blocks_about_me div{
+	height: 250px;
+}
+
+.map {
+	position:center;	
+}
+
+.info {
+	font-size: 30pt;
+	color: #000;
+	font-family: Oswald;
+	text-align: center;
+	padding-bottom: 20px;
+}
+.info p {
+	font-size: 18pt;
+}
+#naslov1 {
+	font-size: 25pt;
+}
+#naslov2 {
+	font-size: 15pt;
+}
